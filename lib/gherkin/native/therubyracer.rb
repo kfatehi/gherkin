@@ -1,4 +1,5 @@
-require 'v8'
+# FIXME: #require is not supported in RubyMotion
+# require 'v8'
 
 class Class
   def native_impl(lib)

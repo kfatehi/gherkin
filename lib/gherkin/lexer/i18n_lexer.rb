@@ -1,5 +1,5 @@
-require 'gherkin/i18n'
-require 'gherkin/native'
+# require 'gherkin/i18n'
+# require 'gherkin/native'
 
 module Gherkin
   module Lexer

@@ -1,5 +1,5 @@
-require 'gherkin/native'
-require 'gherkin/formatter/model'
+# require 'gherkin/native'
+# require 'gherkin/formatter/model'
 
 module Gherkin
   module Listener

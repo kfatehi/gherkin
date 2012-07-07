@@ -1,10 +1,10 @@
 # encoding: utf-8
-require 'gherkin/formatter/ansi_escapes'
-require 'gherkin/formatter/step_printer'
-require 'gherkin/formatter/argument'
-require 'gherkin/formatter/escaping'
-require 'gherkin/formatter/model'
-require 'gherkin/native'
+# require 'gherkin/formatter/ansi_escapes'
+# require 'gherkin/formatter/step_printer'
+# require 'gherkin/formatter/argument'
+# require 'gherkin/formatter/escaping'
+# require 'gherkin/formatter/model'
+# require 'gherkin/native'
 
 module Gherkin
   module Formatter

@@ -1,5 +1,5 @@
-require 'gherkin/native'
-require 'gherkin/formatter/hashable'
+# require 'gherkin/native'
+# require 'gherkin/formatter/hashable'
 
 module Gherkin
   module Formatter

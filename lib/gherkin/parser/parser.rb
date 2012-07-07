@@ -1,7 +1,7 @@
-require 'gherkin/i18n'
-require 'gherkin/lexer/i18n_lexer'
-require 'gherkin/native'
-require 'gherkin/listener/formatter_listener'
+# require 'gherkin/i18n'
+# require 'gherkin/lexer/i18n_lexer'
+# require 'gherkin/native'
+# require 'gherkin/listener/formatter_listener'
 
 module Gherkin
   module Parser

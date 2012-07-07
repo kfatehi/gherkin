@@ -9,7 +9,7 @@ module Gherkin
         when Java.java.util.Collection, Array
           o.map{|e| rubify(e)}
         when Java.gherkin.formatter.model.DocString
-          require 'gherkin/formatter/model'
+#           require 'gherkin/formatter/model'
           Formatter::Model::DocString.new(o.content_type, o.value, o.line)
         else
           o

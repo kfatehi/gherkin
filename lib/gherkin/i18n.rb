@@ -1,6 +1,7 @@
-require 'yaml'
-require 'gherkin/rubify'
-require 'gherkin/native'
+# FIXME: #require is not supported in RubyMotion
+# require 'yaml'
+# require 'gherkin/rubify'
+# require 'gherkin/native'
 
 module Gherkin
   class I18n
@@ -55,9 +56,10 @@ module Gherkin
       end
 
       def language_table
-        require 'stringio'
-        require 'gherkin/formatter/pretty_formatter'
-        require 'gherkin/formatter/model'
+# FIXME: #require is not supported in RubyMotion
+#         require 'stringio'
+#         require 'gherkin/formatter/pretty_formatter'
+#         require 'gherkin/formatter/model'
         io = StringIO.new
         pf = Gherkin::Formatter::PrettyFormatter.new(io, true, false)
         table = all.map do |i18n|
@@ -109,17 +111,17 @@ module Gherkin
     end
 
     def c(listener)
-      require 'gherkin/c_lexer'
+#       require 'gherkin/c_lexer'
       CLexer[underscored_iso_code].new(listener)
     end
 
     def rb(listener)
-      require 'gherkin/rb_lexer'
+#       require 'gherkin/rb_lexer'
       RbLexer[underscored_iso_code].new(listener)
     end
 
     def js(listener)
-      require 'gherkin/js_lexer'
+#       require 'gherkin/js_lexer'
       JsLexer[underscored_iso_code].new(listener)
     end
 
@@ -146,9 +148,10 @@ module Gherkin
     end
 
     def keyword_table
-      require 'stringio'
-      require 'gherkin/formatter/pretty_formatter'
-      require 'gherkin/formatter/model'
+# FIXME: #require is not supported in RubyMotion
+#       require 'stringio'
+#       require 'gherkin/formatter/pretty_formatter'
+#       require 'gherkin/formatter/model'
       io = StringIO.new
       pf = Gherkin::Formatter::PrettyFormatter.new(io, false, false)
 

@@ -1,4 +1,5 @@
-require 'v8'
+# FIXME: #require is not supported in RubyMotion
+# require 'v8'
 
 module Gherkin
   # Thin adapter for the JavaScript lexer, primarily used for testing.

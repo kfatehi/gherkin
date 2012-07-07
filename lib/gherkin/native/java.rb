@@ -22,7 +22,8 @@ class Class
   # from the same Ruby based test suite. The Java Class must have a package name
   # that corresponds with the Ruby class.
   def native_impl(lib)
-    require "#{lib}.jar"
+# FIXME: #require is not supported in RubyMotion
+#     require "#{lib}.jar"
 
     class << self
       def new(*args)
